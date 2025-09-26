@@ -1,0 +1,8 @@
+! tasks.dat - Example file for modification of the lung
+! This header will be skipped by the program.
+! Format: [axis] [action] [side]
+! Axis: x, y, z | Action: a (add), d (delete) | Side: p (positive), n (negative)
+x a p
+x a n
+z a p
+z a n

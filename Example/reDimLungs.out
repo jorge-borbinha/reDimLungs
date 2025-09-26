@@ -1,0 +1,129 @@
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>          
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>          
+ >>>>>>>>>>       ReDimLungs Fortran Routine       >>>>>>>>>> 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>          
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>          
+   
+   
+ >>>>> Input file 'reDimLungs.in' read successfully.
+  
+  The organ to redimension is: Right Lung
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>          
+ >>>>> SECTION: Load phantom file and detect organ section.
+   
+ >>>>> Load Phantom File
+ Opening phantom file:
+  >    ct-den-matXY_ICRP-AF.dat
+ Organ considered for redimension and organ ID:
+ >    Right Lung 45
+ Voxel dimensions in x,y,z (cm):
+ >    0.1775 0.1775 0.4840
+ Voxels volume (cm^3):
+ >    0.015249
+ No. of voxels in x,y,z and total:
+ >     299  137  348    14255124
+ Reading the phantom file...
+ Phantom writen in a 3D vector.
+   
+ >>>>> Detecting Organ Section
+ Min and Max z values:
+ >     272   303
+ Section size: (slices, cm)
+ >      32  15.4880
+ Section considered for redimension:
+ >     262   313
+   
+ >>>>> Listing the initial coordinates on all 3 axis
+  > X AXIS LUNG COORDINATES:
+  Min x : 54    Max x:240
+  Size:187 slices; 33.1925 cm.
+  > Y AXIS LUNG COORDINATES:
+  Min y : 62    Max y:128
+  Size: 67 slices; 11.8925 cm.
+  > Z AXIS LUNG COORDINATES:
+  Min z :272    Max z :303
+  Size: 32 slices; 15.4880 cm.
+   
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>          
+ >>>>> SECTION: Organ Redimension Structure.
+   
+ >>>>> Load Tasks File
+ Opening tasks file:
+  >    tasks.dat
+ No of lines to read:
+ >      4
+ Starting organ redimension...
+   
+ >>>>> Reading line from tasks file. Task no:           1
+  Adding a slice... On the positive side of the x axis...
+  Current dimensions in all 3 axis after this modification:
+  > X AXIS LUNG COORDINATES:
+  Min x : 54    Max x:240
+  Size:187 slices; 33.1925 cm.
+  > Y AXIS LUNG COORDINATES:
+  Min y : 47    Max y:128
+  Size: 82 slices; 14.5550 cm.
+  > Z AXIS LUNG COORDINATES:
+  Min z :272    Max z :304
+  Size: 33 slices; 15.9720 cm.
+  
+  
+ >>>>> Reading line from tasks file. Task no:           2
+  Adding a slice... On the negative side of the x axis...
+  Current dimensions in all 3 axis after this modification:
+  > X AXIS LUNG COORDINATES:
+  Min x : 47    Max x:240
+  Size:194 slices; 34.4350 cm.
+  > Y AXIS LUNG COORDINATES:
+  Min y : 41    Max y:128
+  Size: 88 slices; 15.6200 cm.
+  > Z AXIS LUNG COORDINATES:
+  Min z :272    Max z :304
+  Size: 33 slices; 15.9720 cm.
+  
+  
+ >>>>> Reading line from tasks file. Task no:           3
+  Adding a slice... On the positive side of the z axis...
+  Current dimensions in all 3 axis after this modification:
+  > X AXIS LUNG COORDINATES:
+  Min x : 41    Max x:240
+  Size:200 slices; 35.5000 cm.
+  > Y AXIS LUNG COORDINATES:
+  Min y : 41    Max y:128
+  Size: 88 slices; 15.6200 cm.
+  > Z AXIS LUNG COORDINATES:
+  Min z :272    Max z :305
+  Size: 34 slices; 16.4560 cm.
+  
+  
+ >>>>> Reading line from tasks file. Task no:           4
+  Adding a slice... On the negative side of the z axis...
+  Current dimensions in all 3 axis after this modification:
+  > X AXIS LUNG COORDINATES:
+  Min x : 41    Max x:240
+  Size:200 slices; 35.5000 cm.
+  > Y AXIS LUNG COORDINATES:
+  Min y : 41    Max y:128
+  Size: 88 slices; 15.6200 cm.
+  > Z AXIS LUNG COORDINATES:
+  Min z :271    Max z :305
+  Size: 35 slices; 16.9400 cm.
+  
+  
+
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>          
+ >>>>> SECTION: Final Organ Dimensions Analysis.
+  Recalculate dimensions after all modifications have been applied.
+  > X AXIS LUNG COORDINATES:
+  Min x : 41    Max x:240
+  Size:200 slices; 35.5000 cm.
+  > Y AXIS LUNG COORDINATES:
+  Min y : 41    Max y:128
+  Size: 88 slices; 15.6200 cm.
+  > Z AXIS LUNG COORDINATES:
+  Min z :271    Max z :305
+  Size: 35 slices; 16.9400 cm.
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>          
+ >>>>> SECTION: Lung Blood Redimension.
+   
+ >>>>> Check if there are any Lung Blood Voxels outside the Lung
