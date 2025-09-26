@@ -21,7 +21,7 @@ The work performed with the program employed the Adult Female Reference voxel ph
 
 The following image shows the workflow diagram of the patient/phantom matching procedure. This procedure includes matching the lateral (L) and anterior-posterior (AP) diameters of the patient/phantom and matching organ (i.e. lung) dimensions in the x, y and z directions. Note: In the diagram, AFz and Pz correspond to ICRP-AF’s and the patient’s lung dimension along the z axis, respectively.
 
-<img src="images/figure_1.pdf" alt="Workflow diagram of the patient/phantom matching procedure" width="600" />
+<img src="images/figure_1.png" alt="Workflow diagram of the patient/phantom matching procedure" width="600" />
 
 
 ## Input and Output Files
