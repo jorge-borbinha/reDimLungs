@@ -132,7 +132,7 @@ __Note:__ If an error is shown while reading a file, this could be due to a fort
 
 ## Example
 
-The files available in the repository depict the result after the program is run. The program was run employing the following tasks:
+The files available in the directory "Example" depict the result after the program is run using ICRP-AF, employing the following tasks:
 
 ```
 x a p
