@@ -20,7 +20,8 @@ The work performed with the program employed the Adult Female Reference voxel ph
 [2] Borbinha J, Di Maria S, Madeira P, Belchior A, Baptista M, Vaz P. Increasing organ dose accuracy through voxel phantom organ matching with individual patient anatomy. Radiat Phys Chem. 2019 Jun;159:35–46. doi: [10.1016/j.radphyschem.2019.02.014](https://www.doi.org/10.1016/j.radphyschem.2019.02.014)
 
 The following image shows the workflow diagram of the patient/phantom matching procedure. This procedure includes matching the lateral (L) and anterior-posterior (AP) diameters of the patient/phantom and matching organ (i.e. lung) dimensions in the x, y and z directions. Note: In the diagram, AFz and Pz correspond to ICRP-AF’s and the patient’s lung dimension along the z axis, respectively.
-<img src="images/figure_1.pdf" alt="Workflow diagram of the patient/phantom matching procedure" width="800" />
+
+<img src="images/figure_1.pdf" alt="Workflow diagram of the patient/phantom matching procedure" width="600" />
 
 
 ## Input and Output Files
