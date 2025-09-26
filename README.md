@@ -123,5 +123,5 @@ __Note:__ If an error is shown while reading a file, this could be due to a fort
 ## Example
 
 The files available in the repository depict the result after the program is run (with the tasks present in the tasks file). The following image shows a section of the terminal user interface.
-<img src="images/reDimLungs_terminal.png" alt="Example of terminal user interface for reDimLungs" width="600" />
+<img src="images/reDimLungs_terminal.png" alt="Example of terminal user interface for reDimLungs" width="800" />
 
