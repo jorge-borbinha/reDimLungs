@@ -4,7 +4,7 @@ This Fortran program semi-automatically modifies a 3D voxel phantom to match the
 
 ## Description
 
-The ReDimLungs program reads a standard voxel phantom and a user-defined task list to perform volumetric modifications on a specified organ. reDimLungs was developed to work specifically on the lungs. Its primary function is to adjust the dimensions of the left or right lung to match patient-specific measurements. The program's workflow involves:
+The ReDimLungs program reads a reference voxel phantom and a user-defined task list to perform volumetric modifications on a specified organ. reDimLungs was developed to work specifically on the lungs. Its primary function is to adjust the dimensions of the left or right lung to match patient-specific measurements. The program's workflow involves:
 
 - Reading configuration parameters and phantom dimensions from an input file: reDimLungs.in.
 - Identifying the target organ (right or left lung) and its initial dimensions within the phantom.
