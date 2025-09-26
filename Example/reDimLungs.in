@@ -1,0 +1,57 @@
+!============ CONFIG FILE FOR reDimLungs =================================
+!
+! DESCRIPTION:
+!   Example config file adapted to the ICRP-AF, as described in the
+!   README file. Before editing this file, read the instructions
+!   provided in the README.
+!
+! LAST UPDATE:
+!   2025-09-20 by Jorge Cebola Borbinha
+!
+!=========================================================================
+! GENERAL INSTRUCTIONS
+!
+! # Lines starting with a '!' (in column 1) and blank lines are
+!   comments (not read by compliler).
+!
+! # Do not change the order of the sections, nor the order
+!   of data fields in each section.
+!
+! # Strings (e.g. file names) are introduced in free-format style, i.e.,
+!   leading and trailing blanks are allowed. However, the strings 
+!   themselves must not contain blanks. E.g. 'tasks file' should be 
+!   written as 'tasks_file' or 'tasksFile'. 
+!=========================================================================
+&PHANTOM_CONFIG
+
+! ---------- Phantom & File Settings ----------
+organ_choice = 1                                 ! 1: Right Lung, 2: Left Lung
+phantom_file = 'ct-den-matXY_ICRP-AF.dat'         ! Name of the phantom file to read
+tasks_file = 'tasks.dat'                         ! File with tasks to perform
+tasks_file_lines = 4                             ! Number of task lines in the tasks file
+organlist_file = 'organlist.dat'                ! File with tasks to perform
+organlist_file_lines = 142                       ! Number of task lines in the tasks file
+
+! ---------- Phantom Dimensions ----------
+n_slices = 348         ! Number of slices (z)
+n_rows = 137           ! Number of rows (y)
+n_cols = 299           ! Number of columns (x)
+x_res = 0.1775         ! Voxel resolution in x (cm)
+y_res = 0.1775         ! Voxel resolution in y (cm)
+z_res = 0.484          ! Voxel resolution in z (cm)
+
+! -------------- Organ IDs --------------
+right_lung_id = 45              ! Right Lung Organ ID
+left_lung_id = 46               ! Left Lung  Organ ID
+right_lung_blood_id = 44        ! Right Lung Blood Organ ID
+left_lung_blood_id = 43         ! Left Lung Blood Organ ID
+stomach_id = 49                 ! Stomach Organ ID
+esophagous_id = 50              ! Esophagous Organ ID
+heart_blood_id = 52             ! Heart Blood Organ ID
+min_bone_id = 15                ! Minimum Bone Organ ID
+max_bone_id = 18                ! Maximum Bone Organ ID
+
+! -------- Tolerance Setting --------
+slice_tolerance = 10 ! Tolerance for slice matching
+
+/
