@@ -1,3 +1,19 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Copyright (C) 2017 Jorge Cebola Borbinha, 
+! Faculty of Sciences and Technology, NOVA University of Lisbon
+!
+! @author:  Jorge Cebola Borbinha
+! @github:  jorge-borbinha
+! @website: jorge-borbinha.github.io
+!
+! This program is free software: you can redistribute it and/or modify
+! it under the terms of the GNU Affero General Public License v3 (AGPLv3) as 
+! published by the Free Software Foundation.
+!
+! For more information, see https://www.gnu.org/licenses/agpl-3.0.html
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
 ! ==============================================================================
 !
 ! MODULE: PhantomGlobalVars
