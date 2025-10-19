@@ -7,10 +7,9 @@
 ! @website: jorge-borbinha.github.io
 !
 ! This program is free software: you can redistribute it and/or modify
-! it under the terms of the GNU Affero General Public License v3 (AGPLv3) as 
-! published by the Free Software Foundation.
+! it under the terms of the MIT License.
 !
-! For more information, see https://www.gnu.org/licenses/agpl-3.0.html
+! For more information, see https://choosealicense.com/licenses/mit/
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
