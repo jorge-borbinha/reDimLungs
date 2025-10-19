@@ -170,7 +170,7 @@ Copyright (C) 2017 Jorge Cebola Borbinha, Faculty of Sciences and Technology, NO
 
 The Faculty of Sciences and Technology and the NOVA University of Lisbon have the right, perpetual and without geographical boundaries, to file and publish this dissertation through printed copies reproduced on paper or on digital form, or by any other means known or that may be invented, and to disseminate through scientific repositories and admit its copying and distribution for non-commercial, educational or research purposes, as long as credit is given to the author and editor.
 
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License Version 3 (AGPLv3) as published by the Free Software Foundation.
-See the GNU Affero General Public License for more details, available at: [AGPL v3 LICENSE](https://github.com/jorge-borbinha/Patient-specific_voxel_phantom_generation/blob/main/LICENSE.md)
+This program is free software: you can redistribute it and/or modify it under the terms of the MIT License.
+See the MIT License for more details, available at: [MIT License](https://github.com/jorge-borbinha/Patient-specific_voxel_phantom_generation/blob/main/LICENSE.md)
 
 
