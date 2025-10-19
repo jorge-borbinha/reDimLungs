@@ -1,6 +1,6 @@
 ## MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (C) 2017 Jorge Cebola Borbinha, Faculty of Sciences and Technology, NOVA University of Lisbon.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
